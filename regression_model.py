@@ -38,3 +38,9 @@ lin_reg_model.fit(X, y)
 
 X_new = [[22587]] # Cyprus' GDP per capita
 print(lin_reg_model.predict(X_new)) # outputs [[ 5.96242338]]
+
+
+#Or we can use the K-Nearest Negibors regression
+
+clf = sklearn.linear_model.LinearRegression()
+clf = sklearn.neighbors.KNeighborsRegressor(n_neighbors = 3)
