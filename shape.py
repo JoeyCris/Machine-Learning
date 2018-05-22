@@ -299,6 +299,7 @@ class TileHandler:
                         description['ellipses_unfilled'] += 1
                         
                 elif shape_type == "circle":
+                    
 
                     top_left_loc = rand_uniform(0.2,0.5)
                     top_left = (top_left_loc, top_left_loc) #set same top and left location
@@ -378,7 +379,6 @@ class TileHandler:
 
             return {"img": img, "description": description}
 
-#print("meow")
 
 TH = TileHandler(n_shapes = 1, size = 300, dot = True, circle = None)
 tile = TH.generate_tile()
