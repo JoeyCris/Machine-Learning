@@ -13,7 +13,6 @@ import math
 import random
 
 def draw_ellipse(image, bounds, width=1, outline='white', antialias=4):
-    # https://stackoverflow.com/questions/32504246/draw-ellipse-in-python-pil-with-line-thickness/34926008
 
     """Improved ellipse drawing function, based on PIL.ImageDraw."""
 
